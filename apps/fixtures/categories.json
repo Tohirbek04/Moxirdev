@@ -1,0 +1,50 @@
+[
+  {
+    "model": "apps.category",
+    "pk": 1,
+    "fields": {
+      "name": "Backend",
+      "slug": "backend"
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 2,
+    "fields": {
+      "name": "Fronted",
+      "slug": "fronted"
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 3,
+    "fields": {
+      "name": "Mobile",
+      "slug": "mobile"
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 4,
+    "fields": {
+      "name": "Suniy Intellekt",
+      "slug": "suniy-intellekt"
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 5,
+    "fields": {
+      "name": "Full Stack",
+      "slug": "full-stack"
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 6,
+    "fields": {
+      "name": "Dizayn",
+      "slug": "dizayn"
+    }
+  }
+]
