@@ -1,34 +1,48 @@
 from django.contrib.auth.models import AbstractUser
 from django.db import models
+from django.db.models import TextChoices
 
 
-class Admin(AbstractUser):
-    phone = models.CharField(max_length=13)
-    photo = models.ImageField(upload_to='photos/%Y/%m/%d/', null=True, blank=True)
+class Country(models.Model):
+    name = models.CharField(max_length=30)
+    slug = models.SlugField(max_length=30)
 
-    class Meta:
-        verbose_name_plural = 'Admins'
-
-
-class Teacher(Admin):
-    class Meta:
-        proxy = True
+    def __str__(self):
+        return self.name
 
 
-class Moderator(Admin):
-    class Meta:
-        proxy = True
+class User(AbstractUser):
+    class GenderType(TextChoices):
+        MALE = 'male', 'Male'
+        FEMALE = 'female', 'Female'
 
+    class Type(TextChoices):
+        ADMIN = 'admin', 'Admin'
+        STUDENT = 'student', 'Student'
+        TEACHER = 'teacher', 'Teacher'
 
-class User(models.Model):
-    first_name = models.CharField(max_length=20)
-    last_name = models.CharField(max_length=20, null=True, blank=True)
-    age = models.IntegerField()
-    gender = models.CharField(max_length=10)
-    country = models.ForeignKey('apps.Country', models.CASCADE)
-    description = models.TextField(null=True, blank=True)
-    phone = models.CharField(max_length=13)
-    email = models.EmailField(max_length=40, null=True, blank=True)
-    parol = models.CharField(max_length=30)
+    type = models.CharField(max_length=20, choices=Type.choices, default=Type.STUDENT)
     image = models.ImageField(upload_to='user/%Y/%m/%d/', null=True, blank=True)
+    phone = models.CharField(max_length=13, unique=True)
+    birthdate = models.DateTimeField(null=True)
+    gender = models.CharField(max_length=10, choices=GenderType.choices)
+    country = models.ForeignKey('users.Country', models.CASCADE, null=True, blank=True)
+    description = models.TextField(null=True, blank=True)
 
+
+class AdminProxyModel(User):
+    class Meta:
+        proxy = True
+        verbose_name = 'Admin'
+
+
+class StudentProxyModel(User):
+    class Meta:
+        proxy = True
+        verbose_name = 'Student'
+
+
+class TeacherProxyModel(User):
+    class Meta:
+        proxy = True
+        verbose_name = 'Teacher'

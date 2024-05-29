@@ -3,20 +3,21 @@ from rest_framework.serializers import ModelSerializer
 from users.models import User
 
 
-class UserListSerializes(ModelSerializer):
+class UserListSerializers(ModelSerializer):
+
     class Meta:
         model = User
-        fields = 'first_name', 'last_name',
+        fields = 'first_name', 'last_name'
 
 
-class UserSerializers(ModelSerializer):
+class UserRetrieveSerializers(ModelSerializer):
     class Meta:
         model = User
-        exclude = 'parol',
+        fields = 'first_name', 'last_name', 'birthdate', 'phone', "country", "description", "email"
 
 
 class UserCreateSerializers(ModelSerializer):
+
     class Meta:
         model = User
-        exclude = 'id',
-
+        fields = 'phone', 'password', 'first_name', 'last_name', 'username'

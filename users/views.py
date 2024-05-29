@@ -1,23 +1,19 @@
-from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
+from rest_framework.generics import ListAPIView, RetrieveUpdateAPIView
 from rest_framework.permissions import AllowAny
 
-from users.permissions import IsOwner
-from users.serializers import UserListSerializes, UserCreateSerializers, UserSerializers
 from users.models import User
+from users.serializers import UserListSerializers, UserCreateSerializers, UserRetrieveSerializers
 
 
-class UserListCreateAPIView(ListCreateAPIView):
+class UserListAPIView(ListAPIView):
     queryset = User.objects.all()
     permission_classes = AllowAny,
-
-    def get_serializer_class(self):
-        if self.request.method == 'GET':
-            return UserListSerializes
-        return UserCreateSerializers
+    serializer_class = UserListSerializers
 
 
-class UserRetrieveUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
-    queryset = User.objects.all()
-    serializer_class = UserSerializers
-    permission_classes = IsOwner,
+class MyProfileAPIView(RetrieveUpdateAPIView):
+    model = User
+    serializer_class = UserRetrieveSerializers
 
+    def get_object(self):
+        return self.request.user

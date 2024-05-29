@@ -1,6 +1,6 @@
 [
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 1,
     "fields": {
       "name": "Andorra",
@@ -8,7 +8,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 2,
     "fields": {
       "name": "United Arab Emirates",
@@ -16,7 +16,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 3,
     "fields": {
       "name": "Afghanistan",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 4,
     "fields": {
       "name": "Antigua and Barbuda",
@@ -32,7 +32,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 5,
     "fields": {
       "name": "Anguilla",
@@ -40,7 +40,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 6,
     "fields": {
       "name": "Albania",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 7,
     "fields": {
       "name": "Armenia",
@@ -56,7 +56,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 8,
     "fields": {
       "name": "Angola",
@@ -64,7 +64,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 9,
     "fields": {
       "name": "Antarctica",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 10,
     "fields": {
       "name": "Argentina",
@@ -80,7 +80,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 11,
     "fields": {
       "name": "American Samoa",
@@ -88,7 +88,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 12,
     "fields": {
       "name": "Austria",
@@ -96,7 +96,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 13,
     "fields": {
       "name": "Australia",
@@ -104,7 +104,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 14,
     "fields": {
       "name": "Aruba",
@@ -112,7 +112,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 15,
     "fields": {
       "name": "Aland Islands",
@@ -120,7 +120,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 16,
     "fields": {
       "name": "Azerbaijan",
@@ -128,7 +128,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 17,
     "fields": {
       "name": "Bosnia and Herzegovina",
@@ -136,7 +136,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 18,
     "fields": {
       "name": "Barbados",
@@ -144,7 +144,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 19,
     "fields": {
       "name": "Bangladesh",
@@ -152,7 +152,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 20,
     "fields": {
       "name": "Belgium",
@@ -160,7 +160,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 21,
     "fields": {
       "name": "Burkina Faso",
@@ -168,7 +168,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 22,
     "fields": {
       "name": "Bulgaria",
@@ -176,7 +176,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 23,
     "fields": {
       "name": "Bahrain",
@@ -184,7 +184,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 24,
     "fields": {
       "name": "Burundi",
@@ -192,7 +192,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 25,
     "fields": {
       "name": "Benin",
@@ -200,7 +200,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 26,
     "fields": {
       "name": "Saint Barthelemy",
@@ -208,7 +208,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 27,
     "fields": {
       "name": "Bermuda",
@@ -216,7 +216,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 28,
     "fields": {
       "name": "Brunei Darussalam",
@@ -224,7 +224,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 29,
     "fields": {
       "name": "Bolivia",
@@ -232,7 +232,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 30,
     "fields": {
       "name": "Bonaire",
@@ -240,7 +240,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 31,
     "fields": {
       "name": "Brazil",
@@ -248,7 +248,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 32,
     "fields": {
       "name": "Bahamas",
@@ -256,7 +256,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 33,
     "fields": {
       "name": "Bhutan",
@@ -264,7 +264,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 34,
     "fields": {
       "name": "Bouvet Island",
@@ -272,7 +272,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 35,
     "fields": {
       "name": "Botswana",
@@ -280,7 +280,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 36,
     "fields": {
       "name": "Belarus",
@@ -288,7 +288,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 37,
     "fields": {
       "name": "Belize",
@@ -296,7 +296,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 38,
     "fields": {
       "name": "Canada",
@@ -304,7 +304,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 39,
     "fields": {
       "name": "Cocos Islands",
@@ -312,7 +312,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 40,
     "fields": {
       "name": "Congo",
@@ -320,7 +320,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 41,
     "fields": {
       "name": "Congo DR",
@@ -328,7 +328,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 42,
     "fields": {
       "name": "Central African Republic",
@@ -336,7 +336,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 43,
     "fields": {
       "name": "Switzerland",
@@ -344,7 +344,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 44,
     "fields": {
       "name": "Cook Islands",
@@ -352,7 +352,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 45,
     "fields": {
       "name": "Chile",
@@ -360,7 +360,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 46,
     "fields": {
       "name": "Cameroon",
@@ -368,7 +368,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 47,
     "fields": {
       "name": "China",
@@ -376,7 +376,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 48,
     "fields": {
       "name": "Colombia",
@@ -384,7 +384,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 49,
     "fields": {
       "name": "Costa Rica",
@@ -392,7 +392,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 50,
     "fields": {
       "name": "Cuba",
@@ -400,7 +400,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 51,
     "fields": {
       "name": "Cabo Verde",
@@ -408,7 +408,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 52,
     "fields": {
       "name": "Curacao",
@@ -416,7 +416,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 53,
     "fields": {
       "name": "Christmas Island",
@@ -424,7 +424,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 54,
     "fields": {
       "name": "Cyprus",
@@ -432,7 +432,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 55,
     "fields": {
       "name": "Czechia",
@@ -440,7 +440,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 56,
     "fields": {
       "name": "Germany",
@@ -448,7 +448,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 57,
     "fields": {
       "name": "Djibouti",
@@ -456,7 +456,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 58,
     "fields": {
       "name": "Denmark",
@@ -464,7 +464,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 59,
     "fields": {
       "name": "Dominica",
@@ -472,7 +472,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 60,
     "fields": {
       "name": "Dominican Republic",
@@ -480,7 +480,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 61,
     "fields": {
       "name": "Algeria",
@@ -488,7 +488,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 62,
     "fields": {
       "name": "Ecuador",
@@ -496,7 +496,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 63,
     "fields": {
       "name": "Estonia",
@@ -504,7 +504,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 64,
     "fields": {
       "name": "Egypt",
@@ -512,7 +512,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 65,
     "fields": {
       "name": "Western Sahara",
@@ -520,7 +520,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 66,
     "fields": {
       "name": "Eritrea",
@@ -528,7 +528,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 67,
     "fields": {
       "name": "Spain",
@@ -536,7 +536,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 68,
     "fields": {
       "name": "Ethiopia",
@@ -544,7 +544,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 69,
     "fields": {
       "name": "Finland",
@@ -552,7 +552,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 70,
     "fields": {
       "name": "Fiji",
@@ -560,7 +560,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 71,
     "fields": {
       "name": "Falkland Islands",
@@ -568,7 +568,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 72,
     "fields": {
       "name": "Micronesia FS",
@@ -576,7 +576,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 73,
     "fields": {
       "name": "Faroe Islands",
@@ -584,7 +584,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 74,
     "fields": {
       "name": "France",
@@ -592,7 +592,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 75,
     "fields": {
       "name": "Gabon",
@@ -600,7 +600,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 76,
     "fields": {
       "name": "United Kingdom GB",
@@ -608,7 +608,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 77,
     "fields": {
       "name": "Grenada",
@@ -616,7 +616,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 78,
     "fields": {
       "name": "Georgia",
@@ -624,7 +624,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 79,
     "fields": {
       "name": "French Guiana",
@@ -632,7 +632,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 80,
     "fields": {
       "name": "Guernsey",
@@ -640,7 +640,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 81,
     "fields": {
       "name": "Ghana",
@@ -648,7 +648,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 82,
     "fields": {
       "name": "Gibraltar",
@@ -656,7 +656,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 83,
     "fields": {
       "name": "Greenland",
@@ -664,7 +664,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 84,
     "fields": {
       "name": "Gambia",
@@ -672,7 +672,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 85,
     "fields": {
       "name": "Guinea",
@@ -680,7 +680,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 86,
     "fields": {
       "name": "Guadeloupe",
@@ -688,7 +688,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 87,
     "fields": {
       "name": "Equatorial Guinea",
@@ -696,7 +696,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 88,
     "fields": {
       "name": "Greece",
@@ -704,7 +704,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 89,
     "fields": {
       "name": "South Georgia and the Sandwich Islands",
@@ -712,7 +712,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 90,
     "fields": {
       "name": "Guatemala",
@@ -720,7 +720,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 91,
     "fields": {
       "name": "Guam",
@@ -728,7 +728,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 92,
     "fields": {
       "name": "Guiana-Bissau",
@@ -736,7 +736,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 93,
     "fields": {
       "name": "Guyana",
@@ -744,7 +744,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 94,
     "fields": {
       "name": "Hong Kong",
@@ -752,7 +752,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 95,
     "fields": {
       "name": "Heard Island and McDonald Islands",
@@ -760,7 +760,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 96,
     "fields": {
       "name": "Honduras",
@@ -768,7 +768,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 97,
     "fields": {
       "name": "Croatia",
@@ -776,7 +776,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 98,
     "fields": {
       "name": "Haiti",
@@ -784,7 +784,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 99,
     "fields": {
       "name": "Hungary",
@@ -792,7 +792,7 @@
     }
   },
   {
-    "model": "apps.country",
+    "model": "users.country",
     "pk": 100,
     "fields": {
       "name": "Indonesia",
