@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.admin import ModelAdmin, StackedInline
 
-from apps.models import CourseVideo, Course
+from apps.models import CourseVideo, Course, CustomGroup
 
 
 class CourseVideoStackedInline(StackedInline):
@@ -13,6 +13,9 @@ class CourseVideoStackedInline(StackedInline):
 @admin.register(Course)
 class CourseModelAdmin(ModelAdmin):
     inlines = CourseVideoStackedInline,
+    filter_horizontal = 'groups',
+
+
+@admin.register(CustomGroup)
+class Group(ModelAdmin):
     filter_horizontal = 'users',
-
-

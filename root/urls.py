@@ -38,7 +38,9 @@ schema_view = get_schema_view(
 urlpatterns = [
     path('', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('admin/', admin.site.urls),
+    # path('api-auth/', include('rest_framework.urls')),
     path('api/v1/', include('users.urls')),
     path('api/v1/', include('apps.urls')),
     path("ckeditor5/", include('django_ckeditor_5.urls')),
 ] + static(MEDIA_URL, document_root=MEDIA_ROOT) + static(STATIC_URL, document_root=STATIC_ROOT)
+
