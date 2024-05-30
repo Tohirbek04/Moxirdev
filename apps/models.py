@@ -34,5 +34,5 @@ class Course(models.Model):
 
 
 class CourseVideo(models.Model):
-    video = models.FileField(upload_to='course/%Y/%m/%d/', null=True, blank=True)
+    video = models.FileField(upload_to='course', null=True, blank=True)
     course = models.ForeignKey('apps.Course', models.CASCADE)

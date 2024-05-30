@@ -1,6 +1,7 @@
 from django.contrib.auth.models import AbstractUser
 from django.db import models
 from django.db.models import TextChoices
+from django_ckeditor_5.fields import CKEditor5Field
 
 
 class Country(models.Model):
@@ -20,29 +21,14 @@ class User(AbstractUser):
         ADMIN = 'admin', 'Admin'
         STUDENT = 'student', 'Student'
         TEACHER = 'teacher', 'Teacher'
+        MODERATOR = 'moderator', 'Moderator'
 
     type = models.CharField(max_length=20, choices=Type.choices, default=Type.STUDENT)
-    image = models.ImageField(upload_to='user/%Y/%m/%d/', null=True, blank=True)
-    phone = models.CharField(max_length=13, unique=True)
+    image = models.ImageField(upload_to='users/images/', null=True, blank=True)
+    phone = models.CharField(max_length=13, null=True, blank=True)
     birthdate = models.DateTimeField(null=True)
     gender = models.CharField(max_length=10, choices=GenderType.choices)
     country = models.ForeignKey('users.Country', models.CASCADE, null=True, blank=True)
-    description = models.TextField(null=True, blank=True)
+    description = CKEditor5Field(null=True, blank=True, config_name='extends')
 
 
-class AdminProxyModel(User):
-    class Meta:
-        proxy = True
-        verbose_name = 'Admin'
-
-
-class StudentProxyModel(User):
-    class Meta:
-        proxy = True
-        verbose_name = 'Student'
-
-
-class TeacherProxyModel(User):
-    class Meta:
-        proxy = True
-        verbose_name = 'Teacher'

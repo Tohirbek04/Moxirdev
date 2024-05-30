@@ -1,13 +1,13 @@
+from rest_framework import serializers
 from rest_framework.serializers import ModelSerializer
 
 from users.models import User
 
 
-class UserListSerializers(ModelSerializer):
-
+class UserListSerializer(ModelSerializer):
     class Meta:
         model = User
-        fields = 'first_name', 'last_name'
+        fields = 'username', 'image'
 
 
 class UserRetrieveSerializers(ModelSerializer):
@@ -16,8 +16,16 @@ class UserRetrieveSerializers(ModelSerializer):
         fields = 'first_name', 'last_name', 'birthdate', 'phone', "country", "description", "email"
 
 
-class UserCreateSerializers(ModelSerializer):
+class UserCreateSerializer(serializers.ModelSerializer):
+    password = serializers.CharField(write_only=True)
 
     class Meta:
         model = User
-        fields = 'phone', 'password', 'first_name', 'last_name', 'username'
+        fields = ('username', 'phone', 'email', 'password')
+
+    def create(self, validated_data):
+        user = super(UserCreateSerializer, self).create(validated_data)
+        user.set_password(validated_data['password'])
+        user.save()
+        return user
+
